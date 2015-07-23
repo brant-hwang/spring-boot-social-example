@@ -20,9 +20,21 @@
 			margin: 0px; padding: 0px;
 		}
 
+		.ax-sample-header{
+			text-align: center;
+			margin: 20px auto;
+		}
+		.ax-sample-header .ax-logo{
+			background: url("https://www.axisj.com/ko/portal/images/ax-logo-axisj.png") center center;
+			height: 150px;
+		}
+		.ax-sample-header H1 {
+			font-size: 16px;
+		}
+
+
 		.container{
-			max-width: 480px;
-			min-width: 320px;
+			width: 320px;
 			margin: 100px auto;
 		}
 		
@@ -37,6 +49,12 @@
 
 <body>
 	<div class="container">
+
+		<div class="ax-sample-header">
+			<div class="ax-logo"></div>
+			<h1 class="ax info">AXISJ SAMPLE CODES</h1>
+		</div>
+
 
 		<div class="ax-panel good">
 			<div class="ax-panel-heading">
@@ -54,21 +72,17 @@
 
 		<br/>
 
-		<div class="ax-panel">
-			<div class="ax-panel-heading">
-				Sign in with
-			</div>
-			<div class="ax-panel-body">
+		<h3>
+			Sign in with
+		</h3>
 
-				<button class="ax-btn basic" onclick="document.linkedin.submit();">LinkedIn</button>
-				<button class="ax-btn basic" onclick="document.facebook.submit();">Facebook</button>
-				<button class="ax-btn basic" onclick="document.twitter.submit();">Twitter</button>
-				<div style="height:5px"></div>
-				<button class="ax-btn basic" onclick="document.kakao.submit();">Kakao</button>
-				<button class="ax-btn basic" onclick="document.github.submit();">Github</button>
-
-			</div>
-		</div>
+		<ul class="ax-item-group">
+			<a class="ax-item" onclick="document.linkedin.submit();"><i class="axi axi-linkedin-square"></i> LinkedIn</a>
+			<a class="ax-item" onclick="document.facebook.submit();"><i class="axi axi-facebook-square"></i> Facebook</a>
+			<a class="ax-item" onclick="document.twitter.submit();"><i class="axi axi-twitter-square"></i> Twitter</a>
+			<a class="ax-item" onclick="document.kakao.submit();"><i class="axi axi-ion-chatbubble"></i> Kakao</a>
+			<a class="ax-item" onclick="document.github.submit();"><i class="axi axi-github-square"></i> Github</a>
+		</ul>
 
 
 		<div class="links">
