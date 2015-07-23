@@ -30,7 +30,7 @@ Open IntelliJ Preference
 ```
 
 ###Important
-- [Important] the each of sample social applications is registered as oauth redirect domain to **http://social.test.com:8080**
+- the each of sample social applications is registered as oauth redirect domain to **http://social.test.com:8080**
 - you must set host **[127.0.0.1 social.test.com]** and open browser with 'http://social.test.com:8080' url.
 
 
