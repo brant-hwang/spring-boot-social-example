@@ -1,7 +1,7 @@
 package com.axisj.examples.spring.social;
 
-import com.axisj.examples.spring.social.social.SocialUsersDetailService;
 import com.axisj.examples.spring.social.security.UserDetailsService;
+import com.axisj.examples.spring.social.social.SocialUsersDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -52,7 +52,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.formLogin()
 				.loginPage("/login")
 				.loginProcessingUrl("/login/authenticate")
-				.failureUrl("/error?error=bad_credentials")
+				.failureUrl("/error?message=bad_credentials")
 			.and()
 				.logout()
 				.deleteCookies("SESSION")
