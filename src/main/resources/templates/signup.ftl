@@ -20,7 +20,7 @@
 			<input type="submit" value="submit"/>
 		</form>
 	<#else>
-		음.. 뭔가 문제가 발생함. 이메일이 중복되었던지.. 뭔가 있음..ㅋㅋ
+		에러 발생 ㅠ.ㅠ
 	</#if>
 
 
