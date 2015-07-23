@@ -1,0 +1,14 @@
+.idea/
+.gradle
+
+build/
+classes/
+target/
+out/
+
+*.ipr
+*.iws
+*.iml
+.idea_modules/
+
+atlassian-ide-plugin.xml
