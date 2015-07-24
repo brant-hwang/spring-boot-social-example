@@ -53,6 +53,8 @@ dependencies {
     compile("org.springframework.social:spring-social-github:${springSocialGithubVersion}")
     compile("org.springframework.session:spring-session:${springSessionVersion}")
     compile("com.github.kstyrc:embedded-redis:$embeddedRedisVersion")
+    compile("kr.pe.kwonnam.freemarker:freemarker-template-inheritance:0.4.RELEASE")
+
     compile("com.h2database:h2")
 
     testCompile("org.springframework.boot:spring-boot-starter-test")
