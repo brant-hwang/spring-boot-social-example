@@ -61,30 +61,32 @@
 	</div>
 
 <#if user??>
+	<form name="test" action="/signup" method="POST">
 	<div class="ax-panel info">
 		<div class="ax-panel-heading">
 			Sign Up page
 		</div>
 		<div class="ax-panel-body">
-			<form name="test" action="/signup" method="POST">
-				<div style="padding:5px;">email</div>
-				<input class="ax-inp" style="width:100%;" type="text" name="email" value="${user.email!""}" required/><br/>
-				<div style="padding:5px;">firstName</div>
-				<input class="ax-inp" style="width:100%;" type="text" name="firstName" value="${user.firstName!""}"/><br/>
-				<div style="padding:5px;">lastName</div>
-				<input class="ax-inp" style="width:100%;" type="text" name="lastName" value="${user.lastName!""}"/><br/>
-				<div style="padding:5px;">password</div>
-				<input class="ax-inp" style="width:100%;" type="password" name="password" value="" required/>
 
-				<div style="height:10px"></div>
+			<div style="padding:5px;">email</div>
+			<input class="ax-inp lg" style="width:100%;" type="text" name="email" value="${user.email!""}" required/><br/>
+			<div style="padding:5px;">firstName</div>
+			<input class="ax-inp lg" style="width:100%;" type="text" name="firstName" value="${user.firstName!""}"/><br/>
+			<div style="padding:5px;">lastName</div>
+			<input class="ax-inp lg" style="width:100%;" type="text" name="lastName" value="${user.lastName!""}"/><br/>
+			<div style="padding:5px;">password</div>
+			<input class="ax-inp lg" style="width:100%;" type="password" name="password" value="" required/>
 
-				<div style="text-align: center;">
-					<input type="submit" value="submit" class="ax-btn lg good"/>
-				</div>
-
-			</form>
 		</div>
 	</div>
+
+	<div style="padding:10px;text-align: right;">
+		<input type="submit" value="submit" class="ax-btn lg good"/>
+		<button type="button" class="ax-btn lg" onclick="location.href = '/';"><i class="axi axi-restore"></i> 돌아가기</button>
+	</div>
+
+	</form>
+
 <#else>
 	<div class="ax-panel warning">
 		<div class="ax-panel-heading">
