@@ -16,9 +16,7 @@
 
 		<br/>
 
-		<h3>
-			Sign in with
-		</h3>
+		<h3>Sign in with</h3>
 
 		<ul class="ax-item-group">
 			<a class="ax-item" onclick="document.linkedin.submit();"><i class="axi axi-linkedin-square"></i> LinkedIn</a>
@@ -27,7 +25,6 @@
 			<a class="ax-item" onclick="document.kakao.submit();"><i class="axi axi-ion-chatbubble"></i> Kakao</a>
 			<a class="ax-item" onclick="document.github.submit();"><i class="axi axi-github-square"></i> Github</a>
 		</ul>
-
 
 		<div class="links">
 			<a class="ax" href="https://www.axisj.com">https://www.axisj.com</a>, <a class="ax" href="https://github.com/axisj">https://github.com/axisj</a>

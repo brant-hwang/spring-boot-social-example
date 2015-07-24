@@ -54,8 +54,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 						"/auth/**",
 						"/login",
 						"/error",
-						"/signup"
-
+						"/signup",
+						"/css/**",
+						"/js/**"
 				).permitAll()
 				.antMatchers("/**").hasRole("USER")
 			.and()

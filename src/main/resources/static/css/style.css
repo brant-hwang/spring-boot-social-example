@@ -1,0 +1,30 @@
+html{
+    margin: 0px; padding: 0px;
+}
+body{
+    margin: 0px; padding: 0px;
+}
+
+.ax-sample-header{
+    text-align: center;
+    margin: 20px auto;
+}
+.ax-sample-header .ax-logo{
+    background: url("https://www.axisj.com/ko/portal/images/ax-logo-axisj.png") center center;
+    height: 150px;
+}
+.ax-sample-header H1 {
+    font-size: 16px;
+}
+
+
+.container{
+    width: 320px;
+    margin: 100px auto;
+}
+
+.links{
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+}

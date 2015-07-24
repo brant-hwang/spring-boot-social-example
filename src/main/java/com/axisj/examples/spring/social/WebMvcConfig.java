@@ -7,6 +7,7 @@ import kr.pe.kwonnam.freemarker.inheritance.PutDirective;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 
@@ -14,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-public class WebMvcConfig {
+public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
 	@Bean
 	public Map<String, TemplateModel> freemarkerLayoutDirectives() {
