@@ -44,3 +44,4 @@ Open IntelliJ Preference
 
 ### Reference
 - Spring-Social-Kakao : https://github.com/bongki/spring-social-kakao
+- Freemarker Template Inheritance : https://github.com/kwon37xi/freemarker-template-inheritance
