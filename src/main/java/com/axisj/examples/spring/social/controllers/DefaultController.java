@@ -12,7 +12,6 @@ public class DefaultController {
 
 	@RequestMapping(value = "/")
 	public String home(@AuthenticationPrincipal FrontUserDetail userDetail, Model model) {
-		System.out.println(userDetail);
 		model.addAttribute("email", userDetail.getUsername());
 		model.addAttribute("name", userDetail.getNickName());
 		return "home";
