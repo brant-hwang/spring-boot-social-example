@@ -4,7 +4,7 @@
 		<form name="test" action="/signup" method="POST">
 			<div class="ax-panel info">
 				<div class="ax-panel-heading">
-					Sign Up page
+					Sign-up
 				</div>
 				<div class="ax-panel-body">
 
@@ -27,9 +27,9 @@
 			</div>
 
 			<div style="padding:10px;text-align: right;">
-				<input type="submit" value="submit" class="ax-btn lg good"/>
+				<input type="submit" value="Sign-up" class="ax-btn lg good"/>
 				<button type="button" class="ax-btn lg" onclick="location.href = '/';"><i class="axi axi-restore"></i>
-					돌아가기
+					Cancel
 				</button>
 			</div>
 

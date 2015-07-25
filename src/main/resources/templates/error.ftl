@@ -2,7 +2,7 @@
 	<@layout.put block="contents">
 		<div class="ax-panel warning">
 			<div class="ax-panel-heading">
-				Error 발생!
+				Error
 			</div>
 			<div class="ax-panel-body">
 				<h2>${message}</h2>

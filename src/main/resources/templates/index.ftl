@@ -9,7 +9,7 @@
 					<input type="text" name="username" value="" class="ax-inp lg" />
 					<div style="height:5px"></div>
 					<input type="password" name="password" value="" class="ax-inp lg" />
-					<input type="submit" value="login" class="ax-btn lg good" />
+					<input type="submit" value="Login" class="ax-btn lg good" />
 				</form>
 			</div>
 		</div>
