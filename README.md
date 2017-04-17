@@ -8,31 +8,31 @@ Spring-Boot based Social Sign-up & Sign-in Example
 Spring Boot + Spring Social + Spring Security + Spring Session example
 ```
 
-###Example For
+### Example For
 - LinkedIn
 - Facebook
 - Twitter
 - Github
 - Kakao
 
-###How to Open
+### How to Open
 ```
 IntelliJ -> Open -> build.gradle
 ```
 
-###Compile Setting
+### Compile Setting
 ```
 Open IntelliJ Preference
     - Build, Execution, Deployment -> Compiler
         -> Check 'Make project automatically'
 ```
 
-###How to Run
+### How to Run
 ```
 - Run main() on ApplicationInitializer Class
 ```
 
-###Important
+### Important
 - the each of sample social applications is registered as oauth redirect domain to **http://social.test.com:8080**
 - you must set host **[127.0.0.1 social.test.com]** and open browser with 'http://social.test.com:8080' url.
 
